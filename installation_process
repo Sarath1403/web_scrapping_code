@@ -3,3 +3,13 @@
 !mamba install html5lib==1.1 -y
 !pip install pandas
 # !pip install requests==2.26.0
+
+pip install --upgrade beautifulsoup4
+
+pip install --upgrade pandas
+
+import warnings
+warnings.simplefilter("ignore")
+
+from bs4 import BeautifulSoup # this module helps in web scrapping.
+import requests  # this module helps us to download a web page
